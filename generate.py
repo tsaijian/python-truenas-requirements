@@ -130,7 +130,7 @@ def generate_control():
 
         control += "\n" + textwrap.dedent(f"""\
             Package: {package_name}
-            Architecture: amd64
+            Architecture: arm64
             Depends: {', '.join(depends)}
             Description: {requirement.package.title()} for Python
              {requirement.package.title()} is a {requirement.package} library for for Python.
